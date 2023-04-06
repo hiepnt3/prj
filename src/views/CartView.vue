@@ -1,12 +1,21 @@
 <template>
   <div class="cart">
-    <h2>This is Cart Page</h2>
+    <!-- Cart Content -->
+    <CartContent></CartContent>
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import CartContent from "@/components/Body/CartBody/CartContent.vue";
+import Footer from "@/components/Footer/Footer.vue";
 export default {
   name: "Cart",
+  components: {
+    CartContent,
+    Footer,
+  },
 };
 </script>
 

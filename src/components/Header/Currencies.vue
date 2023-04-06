@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-2 currencies right">
     <div class="inner-currencies">
-      <ul class="list-inline">
+      <ul class="list-inline d-flex justify-content-end">
         <li class="list-inline-item">
           <router-link class="link" to="/login">
             <i class="bi bi-person-fill"> </i>

@@ -1,6 +1,6 @@
 <template>
   <div class="imagePage">
-    <img src="http://127.0.0.1:5501/src/image/banner2.webp" alt="" />
+    <img src="../../../assets/image/banner2.webp" alt="" />
   </div>
 </template>
 

@@ -1,12 +1,21 @@
 <template>
   <div class="login">
-    <h2>This is Login Page</h2>
+    <!-- login Content -->
+    <LoginContent></LoginContent>
+    <!-- Footer -->
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer/Footer.vue";
+import LoginContent from "@/components/Body/LoginBody/LoginContent.vue";
 export default {
   name: "login",
+  components: {
+    LoginContent,
+    Footer,
+  },
 };
 </script>
 

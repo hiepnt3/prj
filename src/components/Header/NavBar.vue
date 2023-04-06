@@ -23,13 +23,10 @@
                 <router-link class="link" to="/shop">Shop</router-link>
               </li>
               <li class="nav-item">
-                <router-link class="link" to="/feature">Feature</router-link>
+                <router-link class="link" to="/blogs">Blogs</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="link" to="/pages">Pages</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="link" to="/blogs">Blogs</router-link>
               </li>
             </ul>
           </div>

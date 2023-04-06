@@ -16,15 +16,11 @@
           <i class="bi bi-arrow-right"></i>
         </li>
         <li class="nav-item">
-          <router-link class="link" to="/feature">Feature</router-link>
+          <router-link class="link" to="/blogs">Blogs</router-link>
           <i class="bi bi-arrow-right"></i>
         </li>
         <li class="nav-item">
           <router-link class="link" to="/pages">Pages</router-link>
-          <i class="bi bi-arrow-right"></i>
-        </li>
-        <li class="nav-item">
-          <router-link class="link" to="/blogs">Blogs</router-link>
           <i class="bi bi-arrow-right"></i>
         </li>
       </ul>

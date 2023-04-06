@@ -1,11 +1,32 @@
 <template>
   <div class="shop">
-    <h1>This is an shop page</h1>
+    <!-- banner-shop -->
+    <bannerShop></bannerShop>
+    <div class="container">
+      <!-- sliderShop -->
+      <sliderShop></sliderShop>
+      <!-- contentShop -->
+      <contentShop></contentShop>
+      <!-- Footer -->
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import bannerShop from "@/components/Body/ShopBody/bannerShop.vue";
+import sliderShop from "@/components/Body/ShopBody/sliderShop.vue";
+import contentShop from "@/components/Body/ShopBody/contentShop.vue";
+import Footer from "@/components/Footer/Footer.vue";
+export default {
+  name: "shop",
+  components: {
+    bannerShop,
+    sliderShop,
+    contentShop,
+    Footer,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
